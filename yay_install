@@ -11,5 +11,3 @@ makepkg -si
 cd
 rm -rf /tmp/yay
 yay --version
-
-
