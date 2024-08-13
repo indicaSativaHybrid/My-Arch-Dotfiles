@@ -16,6 +16,12 @@ read username
 
 cd "${HOME}"
 
+##
+
+#### SOURCE OF SCRIPT --> https://github.com/rickellis/ArchMatic
+
+##
+
 PKGS=(
 
     # UTILITIES -----------------------------------------------------------
