@@ -4,3 +4,6 @@
 
 # Works best on fresh arch install. 
 ## Start with yayinstall.sh
+
+#
+![image](https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png)
