@@ -1,5 +1,3 @@
-
 # Arch Linux Dotfiles + Setup scripts
 
-yay is need, and scripts sources are linked to created in comments..
-
+## For personal use tailored to my preference + easy to edit though, scripts are basic bash with original link to creator of script in comments.
