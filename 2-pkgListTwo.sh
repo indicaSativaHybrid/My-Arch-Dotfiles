@@ -16,25 +16,26 @@ read username
 
 cd "${HOME}"
 
-echo "CLONING: YAY"
-git clone "https://aur.archlinux.org/yay.git"
-
-
 PKGS=(
 
     # UTILITIES -----------------------------------------------------------
+    'timeshift'              # Backup and Restore
+    'gparted'                # Partition Management Utilityd
+    'octopi'                 # Pacman GUI tool
+    'btop'                   # Terminal System Monitor tool
+    'archlinux-tweak-tool-git' # Arch Multi Tool from arcolinux
 
-    'bleachbit'              # Screen locker
-    'timeshift'                 # Backup and Restore
+    # General Softwaares ------------------------------------------------------
 
-    # COMMUNICATIONS ------------------------------------------------------
+    'firefox'                 # Firefox Browser by Mozilla
+	'protonplus'              # Gnome proton manager
+	'gnome-boxes'             # Gnome VM manager
+    'steam'                   # Gabe
+    
 
-    'firefox'                 # Firefox
-	'steamtinkerlaunch'
-	'gnome-boxes'
-
-    # THEMES --------------------------------------------------------------
-
+    # DRIVERS --------------------------------------------------------------
+    'vulkan-radeon'           # Vulkan Graphics API for AMD Radeon Graphics
+    'lib32-vulkan-radeon'
 
     # APPS ----------------------------------------------------------------
 
@@ -42,12 +43,6 @@ PKGS=(
    
 
 )
-
-cd ${HOME}/yay
-makepkg -si
-
-# Change default shell
-chsh -s $(which zsh)
 
 for PKG in "${PKGS[@]}"; do
     yay -S --noconfirm $PKG
