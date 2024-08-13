@@ -10,6 +10,11 @@
 echo
 echo "INSTALLING SOFTWARE"
 echo
+##
+
+#### SOURCE OF SCRIPT --> https://github.com/rickellis/ArchMatic
+
+##
 
 PKGS=(
 
@@ -19,7 +24,6 @@ PKGS=(
 
     # TERMINAL UTILITIES --------------------------------------------------
 
-    'bleachbit'               # File deletion utility
     'cmatrix'                 # The Matrix screen animation
     'cronie'                  # cron jobs
     'curl'                    # Remote content retrieval
@@ -49,7 +53,7 @@ PKGS=(
     'nautilus'              # Filesystem browser
     'variety'               # Wallpaper changer
     'clamav'                # Anti-virus
-
+    'bleachbit'               # File deletion utility
     # DEVELOPMENT ---------------------------------------------------------
 
     'gedit'                 # Text editor
