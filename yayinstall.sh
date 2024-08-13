@@ -5,10 +5,6 @@
 # # # # #
 # https://gist.github.com/donfreiday/ec7c4947a419bee90ae50783fc033913
 # # # # #
-  # # # #
-    # # #
-      # #
-        #
         
 sudo pacman -Syu
 mkdir /tmp/yay
